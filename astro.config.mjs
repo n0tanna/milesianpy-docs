@@ -7,13 +7,22 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "MilesianPy",
+      favicon: "./src/assets/favicon.ico",
       social: {
         github: "https://github.com/n0tanna/milesianpy",
+      },
+      logo: {
+        src: "./src/assets/logo-notext.png",
       },
       sidebar: [
         {
           label: "Getting  Started",
-          items: [],
+          items: [
+            {
+              label: "Installation",
+              slug: "getting-started/installation",
+            },
+          ],
         },
         {
           label: "Functions",
