@@ -3,9 +3,6 @@ import starlightPlugin from "@astrojs/starlight-tailwind";
 // Generated color palettes
 const accent = {
   200: "#F41E2D",
-  600: "#c22430",
-  900: "#591819",
-  950: "#3e1514",
 };
 const gray = {
   100: "#f6f6f7",
@@ -26,25 +23,5 @@ export default {
       colors: { accent, gray },
     },
   },
-  plugins: [
-    starlightPlugin({
-      theme: {
-        dark: {
-          accent: {
-            1: "#000000", // Very dark red
-            2: "#000000", // Dark red
-            3: "#000000", // Medium red
-          },
-          gray: {
-            1: "#000000",
-            2: "#000000",
-            3: "#000000",
-            4: "#000000",
-            5: "#000000",
-            6: "#000000",
-          },
-        },
-      },
-    }),
-  ],
+  plugins: [starlightPlugin()],
 };
