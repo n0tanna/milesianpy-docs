@@ -12,3 +12,9 @@ Will accept a `list` or a `str` value.
 Returns a `list`.
 
 ## Usage
+```python
+from milesianpy.parsers import basic_parser
+
+basic_parser_class = basic_parser.BasicParser
+response = basic_parser_class.bracket_multiplication_insertion(list("3(5+6)"))
+```

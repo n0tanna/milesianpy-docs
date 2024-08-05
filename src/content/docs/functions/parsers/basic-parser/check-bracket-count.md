@@ -13,3 +13,9 @@ Will accept a `list` or `str` value.
 Returns a `bool` value.
 
 ## Usage
+```python
+from milesianpy.parsers import basic_parser
+
+basic_parser_class = basic_parser.BasicParser
+response = basic_parser_class.check_bracket_count(list("3(5+6)"))
+```

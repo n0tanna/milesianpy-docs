@@ -12,3 +12,9 @@ Will accept a `list` or `str` value.
 Returns a `list`.
 
 ## Usage
+```python
+from milesianpy.parsers import number_parser
+
+number_parser_class = number_parser.NumberParser
+response = number_parser_class.is_negative(list("-1+5"))
+```

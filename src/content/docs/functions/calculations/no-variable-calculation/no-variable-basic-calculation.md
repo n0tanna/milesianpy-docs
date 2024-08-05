@@ -14,3 +14,9 @@ Will accept a `list` or `str` value.
 Returns a `float` number.
 
 ## Usage
+```python
+from milesianpy.calculations import no_variable_calculation
+
+no_variable_calculation_class = no_variable_calculation.NoVariableCalculation
+response = no_variable_calculation_class.no_variable_basic_calculation(list("3+5"))
+```
