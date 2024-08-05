@@ -119,6 +119,15 @@ export default defineConfig({
             },
           ],
         },
+        {
+          label: "Releases",
+          items: [
+            {
+              label: "0.0.8",
+              slug: "releases/release-0-0-8",
+            },
+          ],
+        },
       ],
       customCss: ["./src/tailwind.css"],
     }),
