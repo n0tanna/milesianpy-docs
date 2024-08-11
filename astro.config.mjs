@@ -42,6 +42,27 @@ export default defineConfig({
               ],
             },
             {
+              label: "Error Handling",
+              items: [
+                {
+                  label: "BracketError",
+                  slug: "functions/error-handling/bracket-error",
+                },
+                {
+                  label: "DecimalError",
+                  slug: "functions/error-handling/decimal-error",
+                },
+                {
+                  label: "InvalidCharacterError",
+                  slug: "functions/error-handling/invalid-character-error",
+                },
+                {
+                  label: "OperatorError",
+                  slug: "functions/error-handling/operator-error",
+                },
+              ],
+            },
+            {
               label: "Parsers",
               items: [
                 {
@@ -125,6 +146,10 @@ export default defineConfig({
             {
               label: "0.0.8",
               slug: "releases/release-0-0-8",
+            },
+            {
+              label: "0.0.9",
+              slug: "releases/release-0-0-9",
             },
           ],
         },
