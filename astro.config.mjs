@@ -151,6 +151,10 @@ export default defineConfig({
               label: "0.0.9",
               slug: "releases/release-0-0-9",
             },
+						{
+							label: "0.0.10",
+							slug: "releases/release-0-0-10"
+						},
           ],
         },
       ],
