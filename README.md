@@ -1,4 +1,3 @@
-
 ![alt text](src/assets/Logo.png)
 
 Math right at your finger-tips.
